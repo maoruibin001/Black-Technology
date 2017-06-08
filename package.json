@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "istanbul cover ./node_modules/mocha/bin/_mocha test/tostring.test.js",
-    "cov": "istanbul cover src/add.js"
+    "cov": "istanbul cover ./node_modules/mocha/bin/_mocha test/*.test.js"
   },
   "repository": {
     "type": "git",
