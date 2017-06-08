@@ -8,10 +8,9 @@
  * @param  {any}  direct 排序的方向，默认从小到大（可传入任意类型数值，或不传）;
  */
 function sort(arr, key, direct) {
-    if (!(arr instanceof Array)) return '';
+    if (!(arr instanceof Array)) return undefined;
 
     if (!arr[0]) return arr;
-
     var tostring = Object.prototype.toString,
         _key = key || 'value';
     if (typeof arr[0] === 'object') {
@@ -19,6 +18,8 @@ function sort(arr, key, direct) {
         Object.prototype.toString = function() {
             return Number(this[_key]);
         }
+    } else {
+        direct = key;
     }
 
     var direct = Number(direct) <= 0 ? -1 : 1;
@@ -38,8 +39,8 @@ function sort(arr, key, direct) {
  */
 
 function getMaxOrMin(arr, key, flag) {
-    if (!arr) return '';
-
+    if (!arr) return undefined;
+    if (!(arr instanceof Array)) return undefined;
     if (!arr[0]) return arr;
     var tostring = Object.prototype.toString,
         _key = key || 'value';
@@ -48,6 +49,8 @@ function getMaxOrMin(arr, key, flag) {
         Object.prototype.toString = function() {
             return this[_key];
         }
+    } else {
+        flag = key;
     }
     if (flag === 'min') {
         flag = 0;
@@ -63,9 +66,10 @@ function getMaxOrMin(arr, key, flag) {
 }
 
 
-var arr0 = [7, 4, 5, 9, 2];
-var arr = [{name: 3}, {name: 505}, {name: 117}, {name: 92}];
-var max = getMaxOrMin(arr,'name', 5);
-var arr3 = sort(arr, 'name');
-console.log(max);
-console.log(getMaxOrMin.length)
+module.exports = {
+    sort: sort,
+    getMaxOrMin: getMaxOrMin
+}
+
+
+console.log(getMaxOrMin([2, 7, 5], -1));
