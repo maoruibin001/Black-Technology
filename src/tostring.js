@@ -70,6 +70,3 @@ module.exports = {
     sort: sort,
     getMaxOrMin: getMaxOrMin
 }
-
-
-console.log(getMaxOrMin([2, 7, 5], -1));
