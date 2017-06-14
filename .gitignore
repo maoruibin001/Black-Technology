@@ -1,2 +1,3 @@
-/coverage/
+coverage/
 /node_modules/
+.idea/
