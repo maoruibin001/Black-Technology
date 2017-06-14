@@ -36,11 +36,7 @@ function pad(str, len, ch, direct) {
         else break;
     }
     // 5、默认为左填充，如果想右填充则direct传'r'，例如（pad('aa', 7, 't','r')和2）
-    if (direct === 'r') {
-        return str + pad + left;
-    } else {
-        return left + pad + str;
-    }
+    return (direct === 'r' ? str + pad + left : left + pad + str);
 }
 
 module.exports = pad;

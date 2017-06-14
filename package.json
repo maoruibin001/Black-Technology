@@ -1,6 +1,6 @@
 {
-  "name": "BlackTechnology",
-  "version": "1.0.0",
+  "name": "bt_mao",
+  "version": "0.1.1",
   "description": "## 目录结构 ``` +src    源代码目录 +test   单元测试目录 +src/tostring 黑魔法之tostring ```",
   "main": "index.js",
   "directories": {
@@ -10,6 +10,10 @@
     "test": "istanbul cover ./node_modules/mocha/bin/_mocha test/*.test.js",
     "cov": "istanbul cover ./node_modules/mocha/bin/_mocha test/*.test.js"
   },
+  "keywords": [
+    "Black",
+    "Technology"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/maoruibin001/Black-Technology.git"
@@ -19,7 +23,7 @@
     "istanbul": "^1.1.0-alpha.1",
     "mocha": "^3.4.2"
   },
-  "author": "",
+  "author": "maoruibin001",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/maoruibin001/Black-Technology/issues"

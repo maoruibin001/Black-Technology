@@ -35,5 +35,7 @@ npm run test
 * 1、toString 黑科技应用
 * 2、操作符及二元运算黑科技
 
+## 其他获取方式
+* npm install bt_mao 可以获取最新代码
 
 ```
