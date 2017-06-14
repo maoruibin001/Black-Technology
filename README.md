@@ -32,8 +32,8 @@ npm install
 npm run test
 ```
 ## 黑科技集锦
-*1、toString 黑科技应用
-*2、操作符及二元运算黑科技
+* 1、toString 黑科技应用
+* 2、操作符及二元运算黑科技
 
 
 ```
