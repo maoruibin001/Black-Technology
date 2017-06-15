@@ -10,7 +10,7 @@
 function sort(arr, key, direct) {
     if (!(arr instanceof Array)) return undefined;
 
-    if (!arr[0]) return arr;
+    if (arr.length === 0) return arr;
     var tostring = Object.prototype.toString,
         _key = key || 'value';
     if (typeof arr[0] === 'object') {
@@ -41,9 +41,9 @@ function sort(arr, key, direct) {
 function getMaxOrMin(arr, key, flag) {
     if (!arr) return undefined;
     if (!(arr instanceof Array)) return undefined;
-    if (!arr[0]) return arr;
+    if (arr.length === 0) return arr;
     var tostring = Object.prototype.toString,
-        _key = key || 'value';
+        _key = key || 'value',
         ret = undefined;
     if (typeof arr[0] === 'object') {
         Object.prototype.toString = function() {
