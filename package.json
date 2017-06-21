@@ -1,6 +1,6 @@
 {
   "name": "bt_mao",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "## 目录结构 ``` +src    源代码目录 +test   单元测试目录 +src/tostring 黑魔法之tostring ```",
   "main": "index.js",
   "directories": {

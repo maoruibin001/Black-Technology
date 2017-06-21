@@ -1,6 +1,14 @@
 /**
  * Created by lenovo on 2017/6/13.
  */
+
+var memwatch = require('memwatch');
+
+memwatch.on('leak', function(info) {
+    console.log(info);
+    console.log(222222);
+});
+
 /**
  * 高效填充字符函数（填充次数为2的n次方中的n次）
  * @param  {string}  str    待填充的字符串
