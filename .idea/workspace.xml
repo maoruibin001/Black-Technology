@@ -1,32 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f591f57-29db-4da3-9464-15b1fc0cfc57" name="Default" comment="change readMe">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/Black-Technology.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/coverage.raw.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/add.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/base.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/prettify.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/prettify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/sort-arrow-sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/sorter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/sqrt.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov-report/tostring.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/coverage/lcov.info" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/pad.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/sqrt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/tostring.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/pad.test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/sqrt.test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/tostring.test.js" afterPath="" />
+    <list default="true" id="2f591f57-29db-4da3-9464-15b1fc0cfc57" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example/sleep.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/example/nextTick.js" afterPath="$PROJECT_DIR$/example/nextTick.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,42 +19,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pad.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pad.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#42#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pad.test.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/pad.test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="13" column="53" lean-forward="false" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
+            <state relative-caret-position="0">
               <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
               <folding />
             </state>
@@ -86,8 +32,8 @@
       <file leaf-file-name="getMax.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/getMax.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+            <state relative-caret-position="598">
+              <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
               </folding>
@@ -99,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/src/tostring.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="754">
-              <caret line="31" column="1" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="31" selection-end-column="1" />
+              <caret line="31" column="1" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="31" selection-end-column="1" />
               <folding>
                 <element signature="n#!!block;n#getMaxOrMin#0" expanded="false" />
               </folding>
@@ -110,8 +56,30 @@
       <file leaf-file-name="nextTick.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/nextTick.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="364">
+              <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sleep.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/example/sleep.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="40" column="6" lean-forward="true" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+              <folding>
+                <element signature="n#!!doc;n#Sleeper#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pad.test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/pad.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="11" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -132,6 +100,7 @@
       <find>==</find>
       <find>=</find>
       <find>sort</find>
+      <find>FUNC</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -149,8 +118,11 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/pad.js" />
         <option value="$PROJECT_DIR$/example/getMax.js" />
-        <option value="$PROJECT_DIR$/example/nextTick.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/example/nextTick.js" />
+        <option value="$PROJECT_DIR$/example/sleep.js" />
+        <option value="$PROJECT_DIR$/src/sleep.js" />
+        <option value="$PROJECT_DIR$/test/sleep.test.js" />
       </list>
     </option>
   </component>
@@ -185,7 +157,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -195,6 +166,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Black-Technology" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Black-Technology" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Black-Technology" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -229,6 +214,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,14 +225,14 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\lenovo\Documents\GitHub\Black-Technology\node_modules" />
-      <recent name="C:\Users\lenovo\Documents\GitHub\Black-Technology\test" />
-      <recent name="C:\Users\lenovo\Documents\GitHub\Black-Technology\src" />
-      <recent name="C:\Users\lenovo\Documents\GitHub\Black-Technology" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\lenovo\Documents\GitHub\Black-Technology\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lenovo\Documents\GitHub\Black-Technology\src" />
+      <recent name="C:\Users\lenovo\Documents\GitHub\Black-Technology\node_modules" />
+      <recent name="C:\Users\lenovo\Documents\GitHub\Black-Technology\test" />
+      <recent name="C:\Users\lenovo\Documents\GitHub\Black-Technology" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -261,7 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.getMax.js">
+  <component name="RunManager" selected="Node.js.sleep.js">
     <configuration default="false" name="pad.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="pad.js" working-dir="$PROJECT_DIR$/src">
       <method />
     </configuration>
@@ -269,6 +255,12 @@
       <method />
     </configuration>
     <configuration default="false" name="getMax.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="getMax.js" working-dir="$PROJECT_DIR$/example">
+      <method />
+    </configuration>
+    <configuration default="false" name="nextTick.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="nextTick.js" working-dir="$PROJECT_DIR$/example">
+      <method />
+    </configuration>
+    <configuration default="false" name="sleep.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="sleep.js" working-dir="$PROJECT_DIR$/example">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -337,16 +329,20 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Node.js.pad.js" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.tostring.js" />
       <item index="2" class="java.lang.String" itemvalue="Node.js.getMax.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.nextTick.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.sleep.js" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.getMax.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.pad.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.tostring.js" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.sleep.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.nextTick.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.getMax.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.pad.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.tostring.js" />
       </list>
     </recent_temporary>
   </component>
@@ -370,7 +366,8 @@
       <workItem from="1497493540096" duration="2239000" />
       <workItem from="1497512911541" duration="993000" />
       <workItem from="1498005274946" duration="5457000" />
-      <workItem from="1498034698031" duration="1841000" />
+      <workItem from="1498034698031" duration="4357000" />
+      <workItem from="1498091151976" duration="3032000" />
     </task>
     <task id="LOCAL-00001" summary="add tostring">
       <created>1496823602288</created>
@@ -428,24 +425,32 @@
       <option name="project" value="LOCAL" />
       <updated>1497493847559</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add getMax">
+      <created>1498037660290</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1498037660290</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25352000" />
+    <option name="totallyTimeSpent" value="30900000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1360" height="728" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25267175" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32740214" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23626374" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3901099" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.492674" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.492674" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3992674" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -499,45 +504,14 @@
     <MESSAGE value="change readMe" />
     <MESSAGE value="code refactoring" />
     <MESSAGE value="modification toString bug~" />
-    <option name="LAST_COMMIT_MESSAGE" value="modification toString bug~" />
+    <MESSAGE value="add getMax" />
+    <option name="LAST_COMMIT_MESSAGE" value="add getMax" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pad.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="806">
-          <caret line="33" column="34" lean-forward="false" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/pad.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="53" lean-forward="false" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coverage/lcov-report/pad.js.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coverage/lcov-report/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="988">
@@ -581,7 +555,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -589,9 +562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="806">
           <caret line="33" column="34" lean-forward="false" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -650,9 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1092">
           <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -697,7 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -705,7 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -713,7 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -742,7 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -830,24 +793,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/pad.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="53" lean-forward="false" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pad.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#42#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/memwatch/examples/slightly_leaky.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1085">
@@ -855,18 +800,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tostring.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="754">
-          <caret line="31" column="1" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="31" selection-end-column="1" />
+          <caret line="31" column="1" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="31" selection-end-column="1" />
           <folding>
             <element signature="n#!!block;n#getMaxOrMin#0" expanded="false" />
           </folding>
@@ -875,27 +812,83 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/example/getMax.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+        <state relative-caret-position="598">
+          <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
           <folding>
             <element signature="e#0#42#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/example/nextTick.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="52">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pad.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/example/nextTick.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        <state relative-caret-position="364">
+          <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/sqrt.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="5" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pad.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/sleep.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="10" column="27" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="10" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sleep.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1066">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/sleep.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="40" column="6" lean-forward="true" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!doc;n#Sleeper#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
